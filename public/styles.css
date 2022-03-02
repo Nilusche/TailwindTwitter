@@ -552,6 +552,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 0.25rem;
 }
 
+.mr-5 {
+  margin-right: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -670,18 +674,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .rounded-full {
   border-radius: 9999px;
-}
-
-.border-r-2 {
-  border-right-width: 2px;
-}
-
-.border-l-2 {
-  border-left-width: 2px;
-}
-
-.border-b-2 {
-  border-bottom-width: 2px;
 }
 
 .border-r {
@@ -918,6 +910,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(230 9 101 / var(--tw-text-opacity));
 }
 
+@media (min-width: 768px) {
+  .md\:mr-5 {
+    margin-right: 1.25rem;
+  }
+}
+
 @media (min-width: 1024px) {
   .lg\:visible {
     visibility: visible;
@@ -925,6 +923,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:col-span-1 {
     grid-column: span 1 / span 1;
+  }
+
+  .lg\:mr-10 {
+    margin-right: 2.5rem;
+  }
+
+  .lg\:mr-8 {
+    margin-right: 2rem;
+  }
+
+  .lg\:mr-5 {
+    margin-right: 1.25rem;
   }
 
   .lg\:block {
