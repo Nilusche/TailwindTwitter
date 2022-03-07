@@ -51,3 +51,6 @@
 .share:hover{
     filter: invert(44%) sepia(91%) saturate(562%) hue-rotate(163deg) brightness(102%) contrast(94%);
 }
+.trends{
+    background: #eef3f6;
+}
