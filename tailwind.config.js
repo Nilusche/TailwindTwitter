@@ -16,7 +16,12 @@ module.exports = {
       },
       twblue:"#1DA1F2",
       twgreen:"#42E6A4",
-      twred:"#E60965"
+      twred:"#E60965",
+      twblack:{
+        100: "#282e34",
+        200: "#14171A"
+      }
+      
     },
       fontFamily:{
         'montserrat':['Roboto', 'sans-serif']
