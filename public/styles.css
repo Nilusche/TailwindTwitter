@@ -564,6 +564,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 0.25rem;
 }
 
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.ml-28 {
+  margin-left: 7rem;
+}
+
 .block {
   display: block;
 }
@@ -602,6 +610,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-12 {
   height: 3rem;
+}
+
+.h-7 {
+  height: 1.75rem;
+}
+
+.h-9 {
+  height: 2.25rem;
 }
 
 .w-64 {
@@ -652,6 +668,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 11rem;
 }
 
+.w-8 {
+  width: 2rem;
+}
+
+.w-9 {
+  width: 2.25rem;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -682,6 +706,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-items-end {
+  justify-items: end;
 }
 
 .gap-4 {
@@ -787,6 +819,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.25rem;
 }
 
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -803,8 +845,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 3rem;
 }
 
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
 .pl-2 {
   padding-left: 0.5rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
 }
 
 .text-left {
@@ -855,6 +909,21 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-twgrey-100 {
   --tw-text-opacity: 1;
   color: rgb(245 248 250 / var(--tw-text-opacity));
+}
+
+.text-twgrey-200 {
+  --tw-text-opacity: 1;
+  color: rgb(225 232 237 / var(--tw-text-opacity));
+}
+
+.text-twblue {
+  --tw-text-opacity: 1;
+  color: rgb(29 161 242 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .outline {
@@ -987,6 +1056,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .message-box-content {
   font-size:1.2rem;
+  width:33rem;
 }
 
 .message-box-content::before {
@@ -1031,6 +1101,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:text-twred:hover {
   --tw-text-opacity: 1;
   color: rgb(230 9 101 / var(--tw-text-opacity));
+}
+
+.hover\:text-twgrey-200:hover {
+  --tw-text-opacity: 1;
+  color: rgb(225 232 237 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus {
