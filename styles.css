@@ -54,3 +54,15 @@
 .trends{
     background: #eef3f6;
 }
+
+.message-box-content {
+  font-size:1.2rem;
+}
+.message-box-content::before {
+  content: "What's happening?";
+  color: #9197a3;
+}
+.message-box-content:not(:empty)::before {
+  content: "";
+}
+

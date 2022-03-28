@@ -787,11 +787,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.25rem;
 }
 
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -990,6 +985,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   background: #eef3f6;
 }
 
+.message-box-content {
+  font-size:1.2rem;
+}
+
+.message-box-content::before {
+  content: "What's happening?";
+  color: #9197a3;
+}
+
+.message-box-content:not(:empty)::before {
+  content: "";
+}
+
 .hover\:bg-twdarkblue:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(12 129 202 / var(--tw-bg-opacity));
@@ -1023,6 +1031,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:text-twred:hover {
   --tw-text-opacity: 1;
   color: rgb(230 9 101 / var(--tw-text-opacity));
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.focus\:before\:text-twgrey-300:focus::before {
+  content: var(--tw-content);
+  --tw-text-opacity: 1;
+  color: rgb(170 184 194 / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px) {
@@ -1086,3 +1105,4 @@ Ensure the default browser behavior of the `hidden` attribute.
     justify-content: flex-end;
   }
 }
+
